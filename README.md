@@ -94,8 +94,8 @@ json
 {
   "titre": "Introduction au Node.js",
   "contenu": "Node.js est un environnement d'exécution JavaScript côté serveur...",
-  "auteur": "nzenda",
-  "date": "2026-03-18",
+  "auteur": "Charles",
+  "date": "2026-03-20",
   "categorie": "Technologie",
   "tags": ["nodejs", "backend", "javascript"]
 }
@@ -111,8 +111,8 @@ json
     "titre": "Introduction au Node.js",
     "contenu": "Node.js est un environnement
 d'exécution JavaScript côté serveur...",
-    "auteur": "nzenda",
-    "date": "2026-03-18",
+    "auteur": "Charles",
+    "date": "2026-03-20",
     "categorie": "Technologie",
     "tags": ["nodejs", "backend", "javascript"]
   }
@@ -148,8 +148,8 @@ GET /api/articles?categorie=Technologie&date=2026-03-18
       "id": 1,
       "titre": "Introduction au Node.js",
       "contenu": "...",
-      "auteur": "nzenda",
-      "date": "2026-03-18",
+      "auteur": "Charles",
+      "date": "2026-03-20",
 categorie": "Technologie",
       "tags": ["nodejs", "backend"],
       "created_at": "2026-03-18T10:30:00Z",
@@ -178,8 +178,8 @@ GET /api/articles/1
     "id": 1,
     "titre": "Introduction au Node.js",
     "contenu": "...",
-    "auteur": "nzenda",
-    "date": "2026-03-18",
+    "auteur": "Charles",
+    "date": "2026-03-20",
     "categorie": "Technologie",
     "tags": ["nodejs", "backend"],
     "created_at": "2026-03-18T10:30:00Z",
@@ -207,8 +207,8 @@ success": false,
 {
   "titre": "Introduction avancée au Node.js",
   "contenu": "Node.js est un environnement performant...",
-  "auteur": "nzenda",
-  "date": "2026-03-19",
+  "auteur": "Charles",
+  "date": "2026-03-21",
   "categorie": "Développement",
   "tags": ["nodejs", "backend", "avancé"]
 
@@ -223,8 +223,8 @@ success": false,
     "id": 1,
     "titre": "Introduction avancée au Node.js",
     "contenu": "...",
-    "auteur": "nzenda",
-    "date": "2026-03-19",
+    "auteur": "Charles",
+    "date": "2026-03-21",
     "categorie": "Développement",
     "tags": ["nodejs", "backend", "avancé"],
     "created_at": "2026-03-18T10:30:00Z",
@@ -320,7 +320,7 @@ curl -X POST http://localhost:3000/api/articles \
     "titre": "Mon premier article",
     "contenu": "Ceci est le contenu de mon premier article de blog.",
     "auteur": "nzenda_jovany",
-    "date": "2026-03-18",
+    "date": "2026-03-20",
     "categorie": "Général",
     "tags": ["premier", "test"]
   }'
@@ -354,7 +354,7 @@ Content-Type': 'application/json'
     titre: "Mon article",
     contenu: "Contenu de l'article...",
     auteur: "Jean",
-    date: "2026-03-18",
+    date: "2026-03-20",
     categorie: "Tech",
     tags: ["nodejs", "api"]
   })
@@ -401,4 +401,4 @@ Le code source complet est disponible sur GitHub :
 ## Auteur
 
 Développé dans le cadre du TAF1 - INF222 EC1 (Développement Backend : Programmation Web)
-Proposé par nzenda kong jovany blaise, PhD Student
+Proposé par Charles njousse, PhD Student
